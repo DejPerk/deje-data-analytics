@@ -22,6 +22,20 @@ Analyzed 160,396 hospital discharge records from Suffolk County, NY using real S
 
 ---
 
+### 🦠 NY State Hospital Acquired Infection Tracking 2009-2023
+Analyzed hospital-acquired infection data across NY State facilities from 2009-2023 using official NYSDOH reporting data.
+
+**Tools:** Google Sheets, Tableau Public  
+**Key Findings:**
+- CDI Hospital Onset was the most common infection type (1,835 cases)
+- Maimonides Medical Center had the highest total infections observed
+- Infections peaked in 2010 and declined significantly by 2023
+
+🔗 [View Live Tableau Dashboard](https://public.tableau.com/app/profile/deje.perkins/viz/NYStateHospitalAcquiredInfectionTracking/Dashboard1)
+📁 [View Project Details](./infection-tracking)
+
+---
+
 ### 📦 Inventory / Supply Chain Analysis
 Analyzed inventory and sales trends across five Las Vegas retail locations to identify stock issues and revenue patterns.
 
