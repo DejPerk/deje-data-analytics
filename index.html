@@ -1,27 +1,107 @@
-<h1>Deje Perkins</h1>
-<h2>Aspiring Data Analyst | Computer Science Graduate</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deje Perkins | Data Analyst Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; }
+    header { background: #161b22; padding: 60px 20px; text-align: center; border-bottom: 2px solid #21262d; }
+    header h1 { font-size: 2.5rem; color: #58a6ff; }
+    header h2 { font-size: 1.2rem; color: #8b949e; margin-top: 10px; }
+    header p { margin-top: 15px; color: #8b949e; max-width: 600px; margin: 15px auto 0; }
+    .links { margin-top: 20px; }
+    .links a { color: #58a6ff; margin: 0 10px; text-decoration: none; }
+    section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+    h3 { font-size: 1.5rem; color: #58a6ff; border-bottom: 1px solid #21262d; padding-bottom: 10px; margin-bottom: 20px; }
+    .project-card { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+    .project-card h4 { font-size: 1.1rem; color: #e6edf3; margin-bottom: 8px; }
+    .project-card p { color: #8b949e; font-size: 0.9rem; margin-bottom: 12px; }
+    .project-card .tags { margin-bottom: 12px; }
+    .tag { background: #21262d; color: #58a6ff; padding: 3px 10px; border-radius: 20px; font-size: 0.8rem; margin-right: 5px; }
+    .btn { display: inline-block; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; margin-right: 8px; }
+    .btn-primary { background: #238636; color: white; }
+    .btn-secondary { background: #21262d; color: #58a6ff; border: 1px solid #58a6ff; }
+    .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill { background: #21262d; padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; color: #e6edf3; }
+    footer { text-align: center; padding: 40px; color: #8b949e; border-top: 1px solid #21262d; margin-top: 40px; }
+  </style>
+</head>
+<body>
 
-<p>
-I am a Computer Science graduate with experience in healthcare, caregiving, databases, and software development. I am interested in using data to solve real-world problems, especially in healthcare and business settings.
-</p>
+<header>
+  <h1>Deje Perkins</h1>
+  <h2>Healthcare Data Analyst | CS Graduate (SNHU, April 2026)</h2>
+  <p>Turning real-world healthcare data into actionable insights using Google Sheets, Tableau, Python, and SQL.</p>
+  <div class="links">
+    <a href="mailto:dejeperkins1@gmail.com">📧 Email</a>
+    <a href="https://github.com/DejPerk/deje-data-analytics" target="_blank">💻 GitHub</a>
+    <a href="https://public.tableau.com/app/profile/deje.perkins" target="_blank">📊 Tableau</a>
+    <a href="https://linkedin.com/in/deje-perkins-978131261" target="_blank">🔗 LinkedIn</a>
+  </div>
+</header>
 
-<h2>Skills</h2>
-<ul>
-  <li>SQL</li>
-  <li>Python</li>
-  <li>Excel</li>
-  <li>MongoDB</li>
-  <li>Data Cleaning</li>
-  <li>Data Visualization</li>
-</ul>
+<section>
+  <h3>Projects</h3>
 
-<h2>Projects</h2>
-<ul>
-  <li>Healthcare Data Dashboard</li>
-  <li>MongoDB Animal Shelter Analysis</li>
-  <li>Python Data Cleaning Project</li>
-  <li>Inventory / Supply Chain Analysis</li>
-</ul>
+  <div class="project-card">
+    <h4>🏥 Suffolk County NY Hospital Patient Trends 2023</h4>
+    <p>Analyzed 160,396 hospital discharge records from Suffolk County using real NY State SPARCS De-Identified data. Identified top diagnoses, busiest hospitals, and admission patterns by age group.</p>
+    <div class="tags">
+      <span class="tag">Google Sheets</span>
+      <span class="tag">Tableau</span>
+      <span class="tag">Healthcare</span>
+    </div>
+    <a href="https://public.tableau.com/app/profile/deje.perkins/viz/SuffolkCountyHospitalPatientTrends2023/Dashboard1" target="_blank" class="btn btn-primary">View Dashboard</a>
+    <a href="https://github.com/DejPerk/deje-data-analytics/tree/main/hospital-patient-trends" target="_blank" class="btn btn-secondary">View Code</a>
+  </div>
 
-<h2>Contact</h2>
-<p>Email: dejetimaraperkins@icloud.com </p>
+  <div class="project-card">
+    <h4>🦠 NY State Hospital Acquired Infection Tracking 2009-2023</h4>
+    <p>Analyzed hospital-acquired infection data across 12 NY State facilities over 14 years. Identified CDI Hospital Onset as the most common infection type and visualized a significant statewide decline by 2023.</p>
+    <div class="tags">
+      <span class="tag">Google Sheets</span>
+      <span class="tag">Tableau</span>
+      <span class="tag">Public Health</span>
+    </div>
+    <a href="https://public.tableau.com/app/profile/deje.perkins/viz/NYStateHospitalAcquiredInfectionTracking/Dashboard1" target="_blank" class="btn btn-primary">View Dashboard</a>
+    <a href="https://github.com/DejPerk/deje-data-analytics/tree/main/infection-tracking" target="_blank" class="btn btn-secondary">View Code</a>
+  </div>
+
+  <div class="project-card">
+    <h4>📦 Inventory / Supply Chain Analysis</h4>
+    <p>Analyzed inventory and sales trends across five Las Vegas retail locations. Identified top revenue locations, best-selling products, and recurring low-stock alerts impacting sales opportunities.</p>
+    <div class="tags">
+      <span class="tag">Google Sheets</span>
+      <span class="tag">Excel</span>
+      <span class="tag">Dashboard</span>
+    </div>
+    <a href="https://github.com/DejPerk/deje-data-analytics/tree/main/inventory-analysis" target="_blank" class="btn btn-secondary">View Project</a>
+  </div>
+</section>
+
+<section>
+  <h3>Skills</h3>
+  <div class="skills-grid">
+    <span class="skill">Google Sheets</span>
+    <span class="skill">Tableau</span>
+    <span class="skill">SQL</span>
+    <span class="skill">Python</span>
+    <span class="skill">Excel</span>
+    <span class="skill">Pivot Tables</span>
+    <span class="skill">Data Cleaning</span>
+    <span class="skill">Data Visualization</span>
+    <span class="skill">HIPAA Compliance</span>
+    <span class="skill">EMR Systems</span>
+    <span class="skill">Git/GitHub</span>
+    <span class="skill">pandas</span>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Deje Perkins | West Babylon, NY</p>
+</footer>
+
+</body>
+</html>
