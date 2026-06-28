@@ -36,6 +36,21 @@ Analyzed hospital-acquired infection data across NY State facilities from 2009-2
 
 ---
 
+## 🏥 30-Day Hospital Readmission Risk Prediction
+
+Used machine learning to predict early hospital readmission risk using 10 years of clinical data from 130 US hospitals. As a CNA with 3 years of clinical experience, I applied domain knowledge to identify the most clinically relevant features for the model.
+
+**Tools:** Python, pandas, scikit-learn, matplotlib
+**Key Findings:**
+- Analyzed 101,766 patient encounters across 130 US hospitals
+- Top predictors: number of lab procedures and medications
+- Compared Logistic Regression vs Random Forest with class balancing
+- Identified class imbalance as a key challenge in clinical ML
+
+[🔗 View Project Details](readmission_risk/README.md)
+
+---
+
 ### 📦 Inventory / Supply Chain Analysis
 Analyzed inventory and sales trends across five Las Vegas retail locations to identify stock issues and revenue patterns.
 
