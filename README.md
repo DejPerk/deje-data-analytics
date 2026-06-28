@@ -17,6 +17,7 @@ Analyzed 160,396 hospital discharge records from Suffolk County, NY using real S
 - 70+ age group had the highest admission rate (61,062)
 - Top diagnosis: Liveborn (13,530), followed by Septicemia (12,011)
 
+📁 [View Project Details](./hospital-patient-trends)
 🔗 [View Live Tableau Dashboard](https://public.tableau.com/app/profile/deje.perkins/viz/SuffolkCountyHospitalPatientTrends2023/Dashboard1)
 
 ---
